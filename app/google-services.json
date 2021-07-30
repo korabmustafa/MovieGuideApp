@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "278108584467",
+    "firebase_url": "https://movie-guide-58caf.firebaseio.com",
+    "project_id": "movie-guide-58caf",
+    "storage_bucket": "movie-guide-58caf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278108584467:android:b03b0546aa786d780fdde6",
+        "android_client_info": {
+          "package_name": "com.arb.movieguideapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278108584467-sammfgtcocamtq8kv4q82rn2bjt5of46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD166A0pW5cspSPD-94y1VI1DE79MuTP4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278108584467-sammfgtcocamtq8kv4q82rn2bjt5of46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

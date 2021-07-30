@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_homeFragment">
+
+    <fragment
+        android:id="@+id/nav_homeFragment"
+        android:name="com.arb.movieguideapp.ui.fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_movies" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_searchFragment"
+        android:name="com.arb.movieguideapp.ui.fragments.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_nav_searchFragment_to_nav_homeFragment"
+            app:destination="@id/nav_homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_favoriteFragment"
+        android:name="com.arb.movieguideapp.ui.fragments.FavoriteFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_nav_favoriteFragment_to_nav_homeFragment"
+            app:destination="@id/nav_homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settingsFragment"
+        android:name="com.arb.movieguideapp.ui.fragments.MoreFragment"
+        android:label="@string/title_more"
+        tools:layout="@layout/fragment_more" >
+        <action
+            android:id="@+id/action_nav_settingsFragment_to_nav_homeFragment"
+            app:destination="@id/nav_homeFragment" />
+    </fragment>
+
+</navigation>
